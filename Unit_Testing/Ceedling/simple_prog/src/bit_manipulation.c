@@ -9,7 +9,7 @@ int8_t do_bit_man(int8_t position)
   if( ( position < 0 ) || ( position > 7 ) )
   { 
     //position should be 0 to 7. Because we are going to modify 8 bit value. 
-    return -1; 
+    return ; 
   }
   
   //set particular bit
